@@ -24,5 +24,44 @@ public class Application2 {
         System.out.println(123 * 0.5);
         System.out.println(123 / 0.5);
         System.out.println(123 % 0.5);
+        System.out.println("------------");
+        /* 문자와 문자 */
+        System.out.println('a' + 'b');
+        System.out.println('a' - 'b');
+        System.out.println('a' * 'b');
+        System.out.println('a' / 'b');
+        System.out.println('a' % 'b');
+        /* 문자와 정수 */
+        System.out.println('a' + 1);
+        System.out.println('a' - 1);
+        System.out.println('a' * 2);
+        System.out.println('a' / 2);
+        System.out.println('a' % 2);
+        /* 문자와 실수 */
+        System.out.println('a' + 1.0);
+        System.out.println('a' - 1.0);
+        System.out.println('a' * 2.0);
+        System.out.println('a' / 2.0);
+        System.out.println('a' % 2.0);
+
+        /* 문자열 리터럴의 연산 */
+        System.out.println("hello" + "world");
+//        System.out.println("hello" - "world");			//에러 발생
+        //System.out.println("hello" * "world");			//에러 발생
+        //System.out.println("hello" / "world");			//에러 발생
+        //System.out.println("hello" % "world");			//에러 발생
+        System.out.println("helloworld" + 123);
+        System.out.println("helloworld" + 123.456);
+        System.out.println("helloworld" + 'a');
+        System.out.println("helloworld" + true);
+        System.out.println("123" + "456");
+
+        /* 논리 값의 연산 */
+        /* 내부적으로는 숫자로 처리되지만 연산자 사용은 불가능하다. */
+//        System.out.println(true + false);				//에러 발생
+        //System.out.println(true - false);				//에러 발생
+        //System.out.println(true * false);				//에러 발생
+        //System.out.println(true / false);				//에러 발생
+        //System.out.println(true % false);				//에러 발생
     }
 }
