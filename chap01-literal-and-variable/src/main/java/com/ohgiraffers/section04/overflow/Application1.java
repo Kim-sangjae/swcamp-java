@@ -13,7 +13,7 @@ public class Application1 {
         byte num2 = -128;
         System.out.println("num2 = " + num2);
 
-        num2--;
+        num2--; // 현재 변수가 가진 값에서 1 감소 시켜주는 연산자
         System.out.println("num2 = " + num2);
     }
 }
