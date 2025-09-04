@@ -15,5 +15,17 @@ public class Application1 {
 
         num2--; // 현재 변수가 가진 값에서 1 감소 시켜주는 연산자
         System.out.println("num2 = " + num2);
+
+        /* int 자료형의 연산 */
+        int firstNum = 1000000;
+        int secondNum = 700000;
+        int multiNum = firstNum * secondNum;
+        System.out.println("multiNum = " + multiNum);
+        long multiNum2 = (long)firstNum * secondNum;
+        System.out.println("multiNum2 = " + multiNum2);
+
+        /* 오버플로우, 언더플로우는 컴파일 에러를 발생시키지는 않지만
+        * 최소~최대값의 범위를 고려한 자료형 선정을 하지 않으면 논리적 에러가 발생할 수 있다. */
+
     }
 }
