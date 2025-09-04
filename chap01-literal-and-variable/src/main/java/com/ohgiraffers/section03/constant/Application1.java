@@ -16,6 +16,6 @@ public class Application1 {
         /* 합성어의 경우 언더스코어 활용 */
         final int MAX_AGE = 100;
         final int MIN_AGE = 0;
-        
+
     }
 }
