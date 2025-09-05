@@ -1,4 +1,4 @@
-package org.sangjae.day1Ex;
+package day1Ex;
 
 public class Ex2 {
     public static void main(String[]args){
