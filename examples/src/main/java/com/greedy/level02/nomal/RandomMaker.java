@@ -14,8 +14,17 @@ public class RandomMaker {
     // ////
     String randomUpperAlphabet(int length){
 
-        return "";
+        String upperString = "";
+
+        for(int i = 0; i<length; i++){
+            int randomChar = rd.nextInt(26)+65;
+            char r = (char)randomChar;
+            upperString += r;
+        };
+
+        return upperString;
     }
+
 
     // ///
     String rockPaperScissors(){
