@@ -58,5 +58,6 @@ public class Application1 {
 
         /* 문자열이 같은지 비교할 때는 eqauls() 메소드를 활용하는 것이 좋다. */
         System.out.println(str1.equals(str2));
+        System.out.println(!str1.equals(str2));
     }
 }
