@@ -19,12 +19,11 @@ public class RandomMaker {
         for(int i = 0; i<length; i++){
             int randomChar = rd.nextInt(26)+65;
             char r = (char)randomChar;
-            upperString += r;
+            upperString = upperString.concat(String.valueOf(r));
         };
 
         return upperString;
     }
-
 
     // ///
     String rockPaperScissors(){
